@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: toni-ai
+    runtime: node
+    plan: free
+    buildCommand: yarn install --frozen-lockfile=false && yarn build
+    startCommand: yarn start
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
