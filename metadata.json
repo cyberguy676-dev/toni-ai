@@ -1,0 +1,10 @@
+{
+  "name": "Toni AI",
+  "description": "Clean, intelligent multilingual AI assistant by Zain Shoaib with Roman Urdu fluency, persistent memory, and DeepSeek-inspired workspace.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
